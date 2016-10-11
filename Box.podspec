@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Swift µframework of the ubiquitous Box<T> & MutableBox<T> reference types, for recursive value types & misc. other purposes.'
   s.description = 'Swift µframework of the ubiquitous Box<T> & MutableBox<T> reference types, for recursive value types & misc. other purposes. \n'
   s.authors  = { 'Rob Rix' => 'rob.rix@github.com', 'Alex Drozhak' => 'alex.drozhak@me.com' }
-  s.version = '2.2'
+  s.version = '2.3'
   s.platform = :ios
   s.ios.deployment_target = '9.0'
   s.source_files =  'Box/*.swift' , 'Box/*.h'
