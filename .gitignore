@@ -1,7 +1,5 @@
 .DS_Store
-build
-xcuserdata
-*.mode*
-*.pbxuser
-*.xcuserdatad
-*.xccheckout
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
