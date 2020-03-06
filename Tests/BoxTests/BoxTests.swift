@@ -1,15 +1,11 @@
+//  Copyright (c) 2014 Rob Rix. All rights reserved.
+
+import Box
 import XCTest
-@testable import Box
 
-final class BoxTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(Box().text, "Hello, World!")
-    }
-
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+class BoxTests: XCTestCase {
+	func testBox() {
+		let box = Box(1)
+		XCTAssertEqual(box.value, 1)
+	}
 }
